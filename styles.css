@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  background: #101418;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  background: #1a53ff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+/* HEADER */
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background: linear-gradient(45deg, #101418, #0d3b6a); */
+}
+
+.hero h1 {
+  font-size: 4rem;
+  line-height: 95px;
+  max-width: 700px;
+}
+
+.hero p {
+  margin-top: 10px;
+  opacity: 0.6;
+  font-size: 1.3rem;
+}
+
+/* ABOUT */
+.about-wrapper,
+.socials-wrapper {
+  max-width: 1000px;
+  margin: 150px auto;
+  margin-top: 0;
+}
+
+.about-wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.about-wrapper h2,
+.socials-wrapper h2 {
+  margin-bottom: 15px;
+}
+
+.about-wrapper .col p {
+  line-height: 32px;
+}
+
+.about-wrapper .col {
+  flex: 1;
+}
+
+.about-wrapper .col:nth-child(2) {
+  margin-left: 50px;
+}
+
+.about-wrapper .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-wrapper .skills ul li {
+  border: 2px solid #2d2d2d;
+  width: max-content;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin: 7px;
+  margin-left: 0;
+  font-weight: 500;
+}
+
+/* SOCIALS */
+
+.socials-wrapper {
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials-wrapper .social-icons img {
+  border: 2px solid #2d2d2d;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.socials-wrapper .social-icons img:hover {
+  background: #2d2d2d;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+}
