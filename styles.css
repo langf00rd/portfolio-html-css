@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 html {
   background: #101418;
@@ -14,19 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-button {
-  background: #1a53ff;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 12px;
-  cursor: pointer;
-}
-
 /* HEADER */
 .header-wrapper {
   display: flex;
@@ -35,6 +22,14 @@ button {
   max-width: 1300px;
   margin: auto;
   padding: 20px;
+}
+
+button {
+  background: #1a53ff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+  cursor: pointer;
 }
 
 /* HERO */
@@ -69,10 +64,15 @@ button {
   border: 5px solid #1a53ff;
 }
 
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
 /* ABOUT */
 .about-wrapper,
-.socials-wrapper,
-.projects-wrapper {
+.project-wrapper,
+.socials-wrapper {
   max-width: 1000px;
   margin: 100px auto;
   margin-top: 0;
@@ -149,6 +149,7 @@ button {
   background: #2d2d2d;
 }
 
+/* MOBILE */
 @media screen and (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
